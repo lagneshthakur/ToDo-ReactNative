@@ -21,10 +21,7 @@ export default class Project_First extends Component {
         <Text style={styles.welcome}>
           Welcome to ReactNATIVE!
         </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={{paddingTop: 6, paddingBottom: 40, backgroundColor: "#F8F8F8"}}>
+        <Text style={{paddingTop: 6, paddingBottom: 40}}>
           Awesome! We will make a to-do app now.
         </Text>
         <View style={styles.container}>

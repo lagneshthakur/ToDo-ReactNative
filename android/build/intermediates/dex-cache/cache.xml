@@ -2,305 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-ab3cab1a5a0152fdb89cf532030a523028fe5a3a.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/library-2.4.0-6e045c83c311ba356884cce6f35d89aba2e4ff83.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1-4383f741683ea576554152af196867e85fc37ac7.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-2eb7c4e293cc36878b14227968ad29513fa0b8e0.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-371418210e295da12a146d048e439b60073ebd25.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0-4f62b1df3c6236ca0a9ecc37674e8a557fe10b81.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-e0657519f675e5f9fb7f07b859c13b5ec37c1bff.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/classes-4c63096ed9ea7b3d569322c811854d6c98e84601.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-378982ad7106c3feef7fee3c9ddb769e56afac0c.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/classes-241760ab4b2a389196f9b0b58fc45b4e41334d7d.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/Project_First/react-native-vector-icons/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="b82f04b6544f2e7205ae7bc77da464f05915f951">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-9c85ca73670a4f13eedd6588f5191b3345c19668.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="2d74afead061bfd6dda3c18734ebcf3fe0d84a7c">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-4e66ceb71e40a09c05d569d31255476d18cf822f.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="2d74afead061bfd6dda3c18734ebcf3fe0d84a7c">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-fefea24a69583a6a43c9c0fa18935eb100a3c16d.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/jsr305-3.0.0-6d5d6241b9d27948a16a676713aef52b153212dd.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-5ada0b7a73ed1ad8c46ba604f018d5b2db8147da.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/classes-f2b87f881ded91d32205998045ac6ac751fe0ab4.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/javax.inject-1-7f40b2eb21792a065e60d0eedd500455c0b0f2ad.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-17775234acdd198189e2acdc47aaa57ac817991b.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0-a1b5cee940fa791b7c81eb3a784ae4bc2a630c66.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1-15164a0d15729f960d9aed613289a9cfff548738.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/bolts-tasks-1.4.0-a1b5cee940fa791b7c81eb3a784ae4bc2a630c66.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/okhttp-3.4.1-fdebb9accea687c171ab5b0f6450b22aa953f66e.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/bundles/debug/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="68f6aefa89888d88ba5c0ec6cb54316492de83fe">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/classes-96aed0e04ecd26a7f5c3292cd8978397cf64a604.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-28101c209921982c4ff465c9b63fbfb7a135e885.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/javax.inject-1-7f40b2eb21792a065e60d0eedd500455c0b0f2ad.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/jars/libs/infer-annotations-1.5.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-40743a1db372a4f3decb460978e55aecd59c7947.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-85d44dc2dac4e112088a870d607de90c81810caf.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-6d6f1d6c2b6b4814ca6bf147d52b4a4aa1672077.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-6e045c83c311ba356884cce6f35d89aba2e4ff83.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-6d5d6241b9d27948a16a676713aef52b153212dd.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-d92fec937e3cd8e4a3234b8ffc4fcccaaad99252.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1-1ecadbf45a5c6899205add4326566e53e434d3f0.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-b8b30c9e6b81d4f2a8e99b83dad85c873c70a594.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/jars/libs/infer-annotations-1.5.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/infer-annotations-1.5-86c17cb3dcf7b8f2cbedd86283f5ad3cec7601b2.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1-fdebb9accea687c171ab5b0f6450b22aa953f66e.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/jars/libs/infer-annotations-1.5.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-aa123d0a49f251a06dc2e05a43163e88c0145c87.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="63994437f62bc861bc20c605d12962f7246116d1">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/okhttp-urlconnection-3.4.1-efb4bd2e18ada739db8ac75f8b6d357d79f43a1a.jar" />
-    </item>
-    <item
         jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
         jumboMode="false"
         revision="25.0.2"
         sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
         <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1-8879913b6acb04f5a15439845937115e95ab150e.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="63994437f62bc861bc20c605d12962f7246116d1">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1-efb4bd2e18ada739db8ac75f8b6d357d79f43a1a.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/support-annotations-23.2.1-15164a0d15729f960d9aed613289a9cfff548738.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-7de8d6d0b991600ef4af61e8e58d27fce1506e07.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/okhttp-ws-3.4.1-4383f741683ea576554152af196867e85fc37ac7.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/internal_impl-23.2.1-3b8dc804734dbc26803d4f9dfe8ce382e496d991.jar" />
     </item>
     <item
         jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
@@ -310,88 +16,39 @@
         <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-3dae51f0559e1d6661892dd99091a9f4af83a4ee.jar" />
     </item>
     <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/classes-ae74621ed4d162da80b8910c92459a712b46e70e.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="2d74afead061bfd6dda3c18734ebcf3fe0d84a7c">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/classes-d3882b729da1851dd12ad62379709521254c98c5.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-efca0f014a862dffa18ec6bec76983146a0cae89.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/okio-1.9.0-4f62b1df3c6236ca0a9ecc37674e8a557fe10b81.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/classes-6055afedeaab1b61f621148f00558160ed7999f7.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-d801ee01b9e62c3d1c63d2334f096fc8014ade3d.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
         sha1="3341b66c54367e777a0647e2db96c045329bfeab">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/classes-8df960ce6091a7b49c6ea4de11cfc5c6dd85ab47.jar" />
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-d92fec937e3cd8e4a3234b8ffc4fcccaaad99252.jar" />
     </item>
     <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-e7e5065e72c190232181c8ca04e5d6eaca8e7351.jar" />
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1-fdebb9accea687c171ab5b0f6450b22aa953f66e.jar" />
     </item>
     <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/classes-2ab3d25316ecc0fe53085fa3ba4d6c6b0bf45793.jar" />
-    </item>
-    <item
-        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
-        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-025b8fbce9233871e9acfe475ea37cf5f4af9b2a.jar" />
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-6e045c83c311ba356884cce6f35d89aba2e4ff83.jar" />
     </item>
     <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-db439ebfeddbe2435aa9c29351dc9204b451d8de.jar" />
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-6d6f1d6c2b6b4814ca6bf147d52b4a4aa1672077.jar" />
     </item>
     <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/classes-90875edd82a3f486f1cbb04fe529242af0a87e5c.jar" />
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/javax.inject-1-7f40b2eb21792a065e60d0eedd500455c0b0f2ad.jar" />
     </item>
     <item
         jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
@@ -401,11 +58,46 @@
         <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-f092c5d94dd88757ef8414c05a813936ed6cc6c7.jar" />
     </item>
     <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/classes-1eb48d78d7e8a71274703a569040a3f119ae6419.jar" />
+        revision="25.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1-1ecadbf45a5c6899205add4326566e53e434d3f0.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-7de8d6d0b991600ef4af61e8e58d27fce1506e07.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-efca0f014a862dffa18ec6bec76983146a0cae89.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-e7e5065e72c190232181c8ca04e5d6eaca8e7351.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1-efb4bd2e18ada739db8ac75f8b6d357d79f43a1a.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-28101c209921982c4ff465c9b63fbfb7a135e885.jar" />
     </item>
     <item
         jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/Project_First/react-native-vector-icons/unspecified/jars/classes.jar"
@@ -415,11 +107,158 @@
         <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-b0db87a0b7c6bcdd20be24d21990726f8c693730.jar" />
     </item>
     <item
-        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/jars/libs/infer-annotations-1.5.jar"
         jumboMode="false"
-        revision="23.0.1"
+        revision="25.0.2"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-aa123d0a49f251a06dc2e05a43163e88c0145c87.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-17775234acdd198189e2acdc47aaa57ac817991b.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-025b8fbce9233871e9acfe475ea37cf5f4af9b2a.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-40743a1db372a4f3decb460978e55aecd59c7947.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-d801ee01b9e62c3d1c63d2334f096fc8014ade3d.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/Project_First/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="e58a9609b20d84784fefe13edc642ada6834ae64">
+        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-9c85ca73670a4f13eedd6588f5191b3345c19668.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
         sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/node_modules/react-native-vector-icons/android/build/intermediates/pre-dexed/androidTest/debug/classes-c3fe2b75de208ef3ddb19bf83e767bd4f2e7fc49.jar" />
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-e0657519f675e5f9fb7f07b859c13b5ec37c1bff.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-db439ebfeddbe2435aa9c29351dc9204b451d8de.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-371418210e295da12a146d048e439b60073ebd25.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-2eb7c4e293cc36878b14227968ad29513fa0b8e0.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-6d5d6241b9d27948a16a676713aef52b153212dd.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-b8b30c9e6b81d4f2a8e99b83dad85c873c70a594.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0-4f62b1df3c6236ca0a9ecc37674e8a557fe10b81.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-85d44dc2dac4e112088a870d607de90c81810caf.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1-15164a0d15729f960d9aed613289a9cfff548738.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1-4383f741683ea576554152af196867e85fc37ac7.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="2d74afead061bfd6dda3c18734ebcf3fe0d84a7c">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-fefea24a69583a6a43c9c0fa18935eb100a3c16d.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="2d74afead061bfd6dda3c18734ebcf3fe0d84a7c">
+        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-4e66ceb71e40a09c05d569d31255476d18cf822f.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0-a1b5cee940fa791b7c81eb3a784ae4bc2a630c66.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-5ada0b7a73ed1ad8c46ba604f018d5b2db8147da.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/home/lagnesh/ReactNativeProjects/ToDo-ReactNative/android/app/build/intermediates/pre-dexed/debug/classes-ab3cab1a5a0152fdb89cf532030a523028fe5a3a.jar" />
+    </item>
+    <item
+        jar="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/lagnesh/ReactNativeProjects/Project_First/android/app/build/intermediates/pre-dexed/debug/classes-378982ad7106c3feef7fee3c9ddb769e56afac0c.jar" />
     </item>
 
 </items>
