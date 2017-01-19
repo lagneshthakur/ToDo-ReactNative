@@ -7,10 +7,11 @@ import ListViewItem from './ListViewItem';
 import Utils from './Utils';
 
 let dataList = [
-  new TodoModel('Hello Koding',true),
+  new TodoModel('Hello CyberGroup',true),
   new TodoModel('Make a Todo App with React Native'),
   new TodoModel('Check to complete a todo'),
-  new TodoModel('Long press, drag and drop a todo to sort')
+  new TodoModel('Long press, drag and drop a todo to sort'),
+  new TodoModel('Touch, edit todo')
 ];
 
 var dataListOrder = getOrder(dataList);

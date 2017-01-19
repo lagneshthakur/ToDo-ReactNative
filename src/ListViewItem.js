@@ -1,20 +1,35 @@
 import React, {Component} from 'react';
-import {TouchableHighlight, View, Text} from 'react-native';
+import {TouchableHighlight, View, Text, TextInput, Button, Alert} from 'react-native';
 import CheckBox from './CheckBox';
 
 class ListViewItem extends Component {
   constructor(props) {
     super(props);
     this._onCheckBoxPressed = this._onCheckBoxPressed.bind(this);
+    this._onPress = this._onPress.bind(this);
+    this._onSubmit = this._onSubmit.bind(this);
+    this._onDelete = this._onDelete.bind(this);
+
     this.state = {
-      data: this.props.data
+      data: this.props.data,
+      newValue: ''
     }
   }
 
   componentWillReceiveProps(props) {
     this.setState({
-      data: props.data
+      data: props.data,
+      newValue: ''
     })
+  }
+
+  _onPress(){
+    var data = this.state.data;
+    this.setState({
+      data: data,
+      edit: true,
+      newValue: ''
+    });
   }
 
   _onCheckBoxPressed() {
@@ -27,18 +42,87 @@ class ListViewItem extends Component {
     this.props.onCompletedChange(data, this.props.dataIndex);
   }
 
+  _onSubmit(event){
+    var title = event.nativeEvent.text;
+    var data = this.state.data;
+    data.title = title;
+    this.setState({
+      edit: false,
+      data: data
+    });
+  }
+
+  _onDelete(){
+    Alert.alert( 'Confirm Delete', 'Are you sure you want to delete this ToDo?', [
+      {},
+      {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
+      {text: 'OK', onPress: () =>
+        {console.log('OK Pressed');
+            var data = this.state.data;
+            data.isDeleted = true;
+            this.setState({
+              edit: false,
+              data: data
+            });
+        }},
+    ]);
+  }
+
   render() {
     let data = this.state.data;
+    let editable = this.state.edit;
     let color = data.completed ? '#C5C8C9' : '#000';
     let textDecorationLine = data.completed ? 'line-through' : 'none';
-    return (
-      <TouchableHighlight underlayColor={'#eee'} style={{paddingTop: 6, paddingBottom: 6, paddingRight: 30, backgroundColor: "#F8F8F8", borderBottomWidth:1, borderColor: '#bbb'}} {...this.props.sortHandlers}>
-        <View style={{flexDirection: 'row', alignItems: 'center'}}>
-          <CheckBox data={data} color={color} onCheckBoxPressed={this._onCheckBoxPressed}></CheckBox>
-          <Text style={{fontSize:18, color: color, textDecorationLine: textDecorationLine}}>{data.title}</Text>
-        </View>
-      </TouchableHighlight>
-    )
+    let editableItem = null, nonEditableItem = null;
+    if(editable){
+      editableItem =
+      <View>
+        <TextInput onSubmitEditing={this._onSubmit} style={{minWidth: 250,height: 36, padding: 4, marginBottom: 0, fontSize: 16, borderWidth: 1, borderColor: '#eee', borderRadius: 8, backgroundColor: '#fff'}}>{data.title}</TextInput>
+        <TouchableHighlight style={styles.addButton} underlayColor='darkred' onPress={this._onDelete}>
+          <Text style={{fontSize: 50, color: 'white'}}> </Text>
+        </TouchableHighlight>
+      </View>;
+    }
+    else {
+      nonEditableItem = <Text style={{fontSize:18, color: color, textDecorationLine: textDecorationLine}}>{data.title}</Text>
+    }
+    if(this.state.data.isDeleted){
+      return(<View></View>)
+    }
+    else {
+      return (
+        <TouchableHighlight onPress={this._onPress} underlayColor={'#eee'} style={{paddingTop: 6, paddingBottom: 6, paddingRight: 30, backgroundColor: "#F8F8F8", borderBottomWidth:1, borderColor: '#bbb'}} {...this.props.sortHandlers}>
+          <View style={{flexDirection: 'row', alignItems: 'center'}}>
+            <CheckBox data={data} color={color} onCheckBoxPressed={this._onCheckBoxPressed}></CheckBox>
+            {editableItem}
+            {nonEditableItem}
+          </View>
+        </TouchableHighlight>
+      )
+    }
+  }
+}
+
+const styles = {
+  addButton: {
+    backgroundColor: 'red',
+    borderColor: 'red',
+    borderWidth: 1,
+    height: 20,
+    width: 20,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+    position: 'absolute',
+    bottom: 10,
+    right:-20,
+    shadowColor: "#000000",
+    shadowOpacity: 0.8,
+    shadowRadius: 2,
+    shadowOffset: {
+      height: 1,
+      width: 0
+    }
   }
 }
 
