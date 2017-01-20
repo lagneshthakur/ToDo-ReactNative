@@ -77,21 +77,21 @@ class ListViewItem extends Component {
     if(editable){
       editableItem =
       <View>
-        <TextInput onSubmitEditing={this._onSubmit} style={{minWidth: 250,height: 36, padding: 4, marginBottom: 0, fontSize: 16, borderWidth: 1, borderColor: '#eee', borderRadius: 8, backgroundColor: '#fff'}}>{data.title}</TextInput>
+        <TextInput onSubmitEditing={this._onSubmit} style={{minWidth: 250,height: 36, padding: 4, marginBottom: 0, fontSize: 20, borderWidth: 1, borderColor: '#eee', borderRadius: 8, backgroundColor: '#fff'}}>{data.title}</TextInput>
         <TouchableHighlight style={styles.addButton} underlayColor='darkred' onPress={this._onDelete}>
           <Text style={{fontSize: 50, color: 'white'}}> </Text>
         </TouchableHighlight>
       </View>;
     }
     else {
-      nonEditableItem = <Text style={{fontSize:18, color: color, textDecorationLine: textDecorationLine}}>{data.title}</Text>
+      nonEditableItem = <Text style={{fontSize:20, color: color, textDecorationLine: textDecorationLine}}>{data.title}</Text>
     }
     if(this.state.data.isDeleted){
       return(<View></View>)
     }
     else {
       return (
-        <TouchableHighlight onPress={this._onPress} underlayColor={'#eee'} style={{paddingTop: 6, paddingBottom: 6, paddingRight: 30, backgroundColor: "#F8F8F8", borderBottomWidth:1, borderColor: '#bbb'}} {...this.props.sortHandlers}>
+        <TouchableHighlight onPress={this._onPress} underlayColor={'#eee'} style={styles.listViewItem} {...this.props.sortHandlers}>
           <View style={{flexDirection: 'row', alignItems: 'center'}}>
             <CheckBox data={data} color={color} onCheckBoxPressed={this._onCheckBoxPressed}></CheckBox>
             {editableItem}
@@ -123,7 +123,15 @@ const styles = {
       height: 1,
       width: 0
     }
-  }
+  },
+  listViewItem:{
+  paddingTop: 6,
+  paddingBottom: 6,
+  paddingRight: 30,
+  backgroundColor: "#F5FCFF",
+  borderBottomWidth:1,
+  borderColor: '#0076A6'
+  },
 }
 
 module.exports = ListViewItem;

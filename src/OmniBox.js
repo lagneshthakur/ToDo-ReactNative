@@ -51,7 +51,7 @@ class OmniBox extends Component {
 
   render() {
     return (
-      <TextInput style={{minWidth: 250,height: 36, padding: 4, marginBottom: 0, fontSize: 16, borderWidth: 1, borderColor: '#eee', borderRadius: 8, backgroundColor: '#fff'}}
+      <TextInput style={{minWidth: 250,height: 36, padding: 6, marginTop: 10, marginBottom: 10, fontSize: 20, borderWidth: 1, borderColor: '#eee', borderRadius: 8, backgroundColor: '#fff'}}
         placeholder='Add a todo or Search'
         blurOnSubmit={false}
         value={this.state.newValue}

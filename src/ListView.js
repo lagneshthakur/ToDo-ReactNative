@@ -69,9 +69,13 @@ class ListView extends Component {
 
     return (
         <View style={{flex: 1, marginLeft: 10, marginRight: 10}}>
+        <Text style={{fontSize: 30,backgroundColor:"#0076A6", color:"white", marginLeft: -10, marginRight: -10, padding:10}}>
+          ToDo List
+        </Text>
           <OmniBox
             data={dataList}
-            updateDataList={this.updateDataList}/>
+            updateDataList={this.updateDataList}
+            />
           {listView}
         </View>
     )

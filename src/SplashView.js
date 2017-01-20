@@ -23,9 +23,7 @@ componentDidMount(){
           <Text style={styles.cygrp}>CyGrp
             <Text style={styles.todo}> ToDo</Text>
           </Text>
-         <TouchableHighlight onPress={this._navigate}>
          <Image source={require('./img/cyber-group-logo.png')}/>
-        </TouchableHighlight>
        </View>
     )
   }
