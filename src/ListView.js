@@ -48,13 +48,17 @@ class ListView extends Component {
     moveOrderItem(this, fromIndex, toIndex);
   }
 
+  _navigate(){
+  this.props.navigator.pop();
+}
+
   render() {
     let listView = (<View></View>);
     if (this.state.dataList.length) {
       listView = (
         <SortableListView
           ref='listView'
-          style={{flex: 1}}
+          style={{flex: 1, backgroundColor:"white"}}
           data={this.state.dataList}
           order={dataListOrder}
           onRowMoved={e => moveOrderItem(this, e.from, e.to)}
@@ -71,6 +75,9 @@ class ListView extends Component {
           {listView}
         </View>
     )
+    //   <TouchableHighlight onPress={ () => this._navigate() }>
+    //      <Text>GO Back</Text>
+    //  </TouchableHighlight>
   }
 };
 
