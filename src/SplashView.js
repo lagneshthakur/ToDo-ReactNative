@@ -20,10 +20,7 @@ componentDidMount(){
   render() {
     return (
        <View style={styles.container}>
-          <Text style={styles.cygrp}>CyGrp
-            <Text style={styles.todo}> ToDo</Text>
-          </Text>
-         <Image source={require('./img/cyber-group-logo.png')}/>
+          <Text style={{color:"white", fontWeight:"bold", fontSize:42}}>Tasked</Text>          
        </View>
     )
   }
@@ -34,7 +31,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#FFF',
+    backgroundColor: '#0084FF',
   },
   cygrp: {
     fontSize: 25,

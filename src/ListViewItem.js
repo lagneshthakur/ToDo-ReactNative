@@ -77,7 +77,7 @@ class ListViewItem extends Component {
     if(editable){
       editableItem =
       <View>
-        <TextInput onSubmitEditing={this._onSubmit} style={{minWidth: 250,height: 36, padding: 4, marginBottom: 0, fontSize: 20, borderWidth: 1, borderColor: '#eee', borderRadius: 8, backgroundColor: '#fff'}}>{data.title}</TextInput>
+        <TextInput multiline={true} onSubmitEditing={this._onSubmit} style={{minWidth: 250,height: 36, padding: 4, marginBottom: 0, fontSize: 20, borderWidth: 1, borderColor: '#eee', borderRadius: 8, backgroundColor: '#fff'}}><Text>{data.title}</Text></TextInput>
         <TouchableHighlight style={styles.addButton} underlayColor='darkred' onPress={this._onDelete}>
           <Text style={{fontSize: 50, color: 'white'}}> </Text>
         </TouchableHighlight>
