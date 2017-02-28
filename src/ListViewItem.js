@@ -35,10 +35,19 @@ class ListViewItem extends Component {
   _onCheckBoxPressed() {
     var data = this.state.data;
     data.completed = !data.completed;
+    fetch('http://172.25.120.214:3000/todo/modifyCompleted', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        todo: data
+      })
+    }).catch((error) => { console.error(error); }); 
     this.setState({
       data: data
     });
-
     this.props.onCompletedChange(data, this.props.dataIndex);
   }
 
@@ -46,6 +55,16 @@ class ListViewItem extends Component {
     var title = event.nativeEvent.text;
     var data = this.state.data;
     data.title = title;
+    fetch('http://172.25.120.214:3000/todo/modifyTitle', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        todo: data
+      })
+    }).catch((error) => { console.error(error); });
     this.setState({
       edit: false,
       data: data
@@ -59,6 +78,16 @@ class ListViewItem extends Component {
       {text: 'OK', onPress: () =>
         {console.log('OK Pressed');
             var data = this.state.data;
+            fetch('http://172.25.120.214:3000/todo/deleteTodo', {
+              method: 'DELETE',
+              headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({
+                todo: data
+              })
+            }).catch((error) => { console.error(error); });
             data.isDeleted = true;
             this.setState({
               edit: false,

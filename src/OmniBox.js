@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { TextInput } from 'react-native';
-import TodoModel from './TodoModel';
+import TodoModel from './ToDoModel';
 import Utils from './Utils';
 
 class OmniBox extends Component {
@@ -28,7 +28,16 @@ class OmniBox extends Component {
 
   onSubmit(event){
       var newDataItem = new TodoModel(this.state.newValue);
-
+      fetch('http://172.25.120.214:3000/todo/create', {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          todo: newDataItem
+        })
+      })  
       var dataList = this.props.data;
       var dataItem = Utils.findTodo(newDataItem, dataList);
       if(dataItem) {

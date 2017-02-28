@@ -1,20 +1,13 @@
 import React, { Component } from 'react';
-import { Text, View, TouchableHighlight} from 'react-native';
-import TodoModel from './TodoModel';
+import { Text, View, TouchableHighlight, Button} from 'react-native';
 import OmniBox from './OmniBox';
 import SortableListView from 'react-native-sortable-listview';
 import ListViewItem from './ListViewItem';
 import Utils from './Utils';
 
-let dataList = [
-  new TodoModel('Hello CyberGroup',true),
-  new TodoModel('Make a Todo App with React Native'),
-  new TodoModel('Check to complete a todo'),
-  new TodoModel('Long press, drag and drop a todo to sort'),
-  new TodoModel('Touch, edit todo')
-];
-
-var dataListOrder = getOrder(dataList);
+let dataList;
+var dataListOrder;
+var dataAvailable = false;
 
 function getOrder(list) {
   return Object.keys(list);
@@ -30,12 +23,34 @@ class ListView extends Component {
     super(props);
     this.updateDataList = this.updateDataList.bind(this);
     this._onCompletedChange = this._onCompletedChange.bind(this);
+    this.getListItems = this.getListItems.bind(this);
     this.state = {
-      dataList: dataList
+      dataList: null
     }
   }
 
+  getListItems(){
+  fetch('http://172.25.120.214:3000/todo/')
+    .then((response) => response.json())
+    .then((responseJson) => { 
+      console.log("********items****** getListItems " + JSON.stringify(responseJson.items));
+      dataList = responseJson.items;
+      dataListOrder = getOrder(dataList);
+      dataAvailable = true;
+      this.setState({
+        dataList: dataList,
+      });
+    })
+    .catch((error) => { console.error(error); });
+  }
+
+  componentDidMount(){
+    console.log("2");
+    this.getListItems();
+  }
+
   updateDataList(dataList) {
+    
     dataListOrder = getOrder(dataList);
     this.setState({
       dataList: dataList
@@ -50,11 +65,21 @@ class ListView extends Component {
 
   _navigate(){
   this.props.navigator.pop();
-}
+  }
 
   render() {
+    console.log("1");
     let listView = (<View></View>);
-    if (this.state.dataList.length) {
+    if(!dataAvailable){
+      return (
+        <View style={{backgroundColor: "skyblue"}}>
+          <TouchableHighlight>
+          <Text style={{marginTop: 250, textAlign:"center", height: 50, fontSize: 24, color: "blue", backgroundColor:"white"}} >Loading Data..</Text>
+          </TouchableHighlight>
+        </View>
+      )
+    }
+    else{
       listView = (
         <SortableListView
           ref='listView'
@@ -65,8 +90,6 @@ class ListView extends Component {
           renderRow={(dataItem, section, index) => <ListViewItem data={dataItem} dataIndex={index} onCompletedChange={this._onCompletedChange}/>}
         />
       );
-    }
-
     return (
         <View style={{flex: 1, marginLeft: 10, marginRight: 10}}>
         <Text style={{fontSize: 30,backgroundColor:"#0076A6", color:"white", marginLeft: -10, marginRight: -10, padding:10}}>
@@ -82,6 +105,7 @@ class ListView extends Component {
     //   <TouchableHighlight onPress={ () => this._navigate() }>
     //      <Text>GO Back</Text>
     //  </TouchableHighlight>
+    }
   }
 };
 
